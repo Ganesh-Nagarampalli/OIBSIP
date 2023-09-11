@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lists div {
+    flex: 1;
+    padding: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.complete {
+    background-color: #cfc;
+    text-decoration: line-through;
+}
+
+.complete-button,
+.edit-button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+    align-self: flex-start; /* Align the buttons to the top */
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    max-width: 50%; /* Adjust the maximum width as needed */
+    word-break: break-all;
+  }
+  
+  .complete-button,
+  .edit-button {
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10px; /* Increase margin for spacing */
+    align-self: flex-start; /* Align the buttons to the top */
+  }
+  
+.task-text.complete {
+    text-decoration: line-through;
+}
+
+
+
+
+
